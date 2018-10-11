@@ -151,7 +151,7 @@ module.exports = class Connection {
     if (this.canChat === true) {
       for (let i in this.rooms) {
         let room = this.rooms[i]
-        await api.chatRoom.removeMember(this.id, room)
+        await api.chatRoom.removeMember(this.id, room))
       }
     }
 
